@@ -1,3 +1,5 @@
+// REMEMBER: use Chrome browser. Speech Recognition API is non-standard.
+// Provide default value
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
 // Query the page for elements
